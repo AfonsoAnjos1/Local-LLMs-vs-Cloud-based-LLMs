@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔑 Setup API Keys
+🔑 Setup API Keys
 
 Before running, add your API keys inside the script (or export them as environment variables):
 
@@ -41,7 +41,7 @@ export ANTHROPIC_API_KEY="your-anthropic-key"
 
 ---
 
-## 🧪 Usage Example
+🧪 Usage Example
 
 Run the benchmarking script from the command line:
 
@@ -52,7 +52,7 @@ python benchmark.py \
 
 ---
 
-## 📊 Output
+📊 Output
 
 After completion, results are saved in a CSV file (default: benchmark_results.csv) with the following structure:
 
@@ -62,9 +62,9 @@ mmlu	accuracy	0.74	0.68
 
 ---
 
-## 📈 Extending
+📈 Extending
 
-#To add a new dataset:
+To add a new dataset:
 
 Define a new function evaluate_<dataset>() that loads and evaluates it.
 
